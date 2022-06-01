@@ -3,23 +3,23 @@
 <template>
 
   <body>
-    <div id="app">
-      <span class="bg"></span>
+    <div class="text">
       <v-app id="inspire">
         <v-toolbar
           dark
           color="primary"
         >
           <v-toolbar-side-icon></v-toolbar-side-icon>
-          <v-toolbar-title class="white--text">Ellefanter?</v-toolbar-title>
+          <v-toolbar-title>Ellefanter?</v-toolbar-title>
         </v-toolbar>
       </v-app>
     </div>
+
     <div
       class="hello"
-      :style="{'background-image':'url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/640px-African_Bush_Elephant.jpg)'}"
+      :style="image"
     >
-      <!-- <h1>{{ msg }}</h1> -->
+
       <h3>twerkande elefant</h3>
       <img
         src="https://c.tenor.com/PpiijrtPd30AAAAM/elephant-dancing.gif"
@@ -94,16 +94,34 @@ li {
 a {
   color: #42b983;
 }
-.bg {
-  width: 100%;
+#app {
+  font-family: Consolas, ui-monospace;
+
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+.text {
+  font-size: 60px;
+  font-family: monospace;
+  text-align: center;
+  color: rgb(99, 99, 99);
+  /* background-color: green; */
+}
+.hello {
+  background: rgba(0, 0, 0, 0.4)
+    url("https://d1jyxxz9imt9yb.cloudfront.net/project/601/meta_image/mobile/Nania-whisty-projectpage.jpg");
   height: 100%;
-  position: abs;
-  top: 0;
-  left: 0;
-  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/African_Bush_Elephant.jpg/640px-African_Bush_Elephant.jpg")
-    no-repeat center center;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: red; */
-  transform: scale(1.1);
+  background-blend-mode: darken;
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 25px;
+  font-variant: small-caps;
 }
 </style>
+
+
