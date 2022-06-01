@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>ellefanter?</h1>
     <h3>twerkande elefant</h3>
     <img
       src="https://c.tenor.com/PpiijrtPd30AAAAM/elephant-dancing.gif"
@@ -58,5 +58,8 @@ li {
 }
 a {
   color: #42b983;
+}
+h1 {
+  text-align: center;
 }
 </style>
