@@ -3,6 +3,7 @@
 
     <HelloWorld msg="Ellefanter?" />
   </div>
+
 </template>
 
 <script>
