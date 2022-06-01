@@ -1,10 +1,7 @@
 <template>
   <div id="app">
-    <img
-      alt="Vue logo"
-      src="https://media3.giphy.com/media/SWKyABQ08mbXW/200.gif"
-    >
-    <HelloWorld msg="bajsa" />
+
+    <HelloWorld msg="Ellefanter?" />
   </div>
 </template>
 

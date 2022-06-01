@@ -1,6 +1,35 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h3>twerkande elefant</h3>
+    <img
+      src="https://c.tenor.com/PpiijrtPd30AAAAM/elephant-dancing.gif"
+      alt=""
+    >
+
+    <h3>elefant med converse</h3>
+    <img
+      src="https://media3.giphy.com/media/SWKyABQ08mbXW/giphy.gif"
+      alt=""
+    >
+
+    <h3>joggande elefant</h3>
+    <img
+      src="https://thumbs.gfycat.com/CheerfulVengefulBronco-max-1mb.gif"
+      alt=""
+    >
+
+    <h3>skrikande elefant</h3>
+    <img
+      src="https://i.gifer.com/Wllj.gif"
+      alt=""
+    >
+
+    <h3>bebis elefant</h3>
+    <img
+      src="https://i.gifer.com/UpFg.gif"
+      alt=""
+    >
 
   </div>
 </template>
